@@ -1,0 +1,5 @@
+app: # my custom name
+  security:
+    jwt:
+      secret: ${jwt.secret}
+      expiration: 1800000 # Millis

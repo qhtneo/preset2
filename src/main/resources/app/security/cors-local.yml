@@ -1,0 +1,10 @@
+app:
+  security:
+    cors: # 서로 다른 도메인이면 브라우저가 차단해 버림. -> 브라우저한테 "우리가 허용하는 애들은 얘네야." -> 브라우저가 통과시켜 줌.
+      exposed-headers: "*"
+      allowed:
+        methods: "*"
+        headers: "*"
+        origins:
+          - http://localhost:3000
+          - http://127.0.0.1:3000
