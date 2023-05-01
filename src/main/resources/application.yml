@@ -3,3 +3,4 @@ spring:
     import:
       - classpath:/app/security/jwt.yml
       - classpath:/app/security/cors.yml
+      - classpath:/app/security/password.yml
